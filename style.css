@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cut-text { 
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  width: 160px; 
+  height: 1.2em; 
+  white-space: nowrap;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+}
+img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+}
+.total {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.bought-list {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.bought-list li {
+  margin-bottom: 4px;
+}
